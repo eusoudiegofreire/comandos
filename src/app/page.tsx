@@ -5,6 +5,7 @@ import { LibraryExplorer } from "@/components/LibraryExplorer";
 import { StacksSection } from "@/components/StacksSection";
 import { BriefingSection } from "@/components/BriefingSection";
 import { FinalCta } from "@/components/FinalCta";
+import { DeliveryCta } from "@/components/DeliveryCta";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export default function Home() {
@@ -16,11 +17,13 @@ export default function Home() {
       >
         Pular para a biblioteca
       </a>
+      <DeliveryCta compact />
       <SiteHeader />
       <main>
         <Hero />
         <DisclaimerCallout />
         <LibraryExplorer />
+        <DeliveryCta />
         <StacksSection />
         <BriefingSection />
         <FinalCta />

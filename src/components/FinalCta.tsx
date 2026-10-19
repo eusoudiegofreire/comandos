@@ -39,9 +39,12 @@ export function FinalCta() {
               >
                 Falar com a DLX no Instagram
               </a>
-              <span className="text-[13px] text-muted">
-                {siteConfig.instagram.handle}
-              </span>
+              <a
+                href={siteConfig.deliveryUrl}
+                className="rounded-md border border-line px-5 py-3 text-sm font-medium text-ink transition-colors hover:border-orange/60"
+              >
+                Tem delivery? Ver tráfego pago →
+              </a>
             </div>
 
             <p className="max-w-2xl text-[12.5px] leading-relaxed text-muted/80">
