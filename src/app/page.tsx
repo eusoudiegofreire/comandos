@@ -6,6 +6,7 @@ import { StacksSection } from "@/components/StacksSection";
 import { BriefingSection } from "@/components/BriefingSection";
 import { FinalCta } from "@/components/FinalCta";
 import { DeliveryCta } from "@/components/DeliveryCta";
+import { VideoShowcase } from "@/components/VideoShowcase";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <SiteHeader />
       <main>
         <Hero />
+        <VideoShowcase />
         <DisclaimerCallout />
         <LibraryExplorer />
         <DeliveryCta />

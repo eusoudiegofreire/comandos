@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Container } from "./Container";
 
 const NAV = [
+  { href: "#video", label: "Vídeo com IA" },
   { href: "#biblioteca", label: "Biblioteca" },
   { href: "#stacks", label: "Stacks" },
   { href: "#briefing", label: "Briefing" },
